@@ -28,3 +28,7 @@ def run_app():
             is_running = False
         else:
             print("Opción inválida. Por favor, intente de nuevo.\n")
+
+## Este es el punto de entrada del programa, donde se ejecuta la función principal `run_app()`, que maneja la interfaz de usuario y la lógica de ejecución del programa.
+if __name__ == "__main__":
+    run_app()
