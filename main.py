@@ -1,5 +1,8 @@
 # Punto de entrada (UI y ejecución del programa)
-from logic.inventory_tools import get_total_stock, get_low_stock_count
+# from logic.inventory_tools import get_total_stock, get_low_stock_count
+
+from logic import get_total_stock, get_low_stock_count
+
 def run_app():
     # Datos de ejemplo
     inventory = [50, 20, 5, 0, 15, 100, 3]
